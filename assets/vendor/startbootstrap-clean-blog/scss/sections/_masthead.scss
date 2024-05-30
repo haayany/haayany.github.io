@@ -36,8 +36,7 @@ header.masthead {
     }
     
     .page-heading,
-    .post-heading,
-    .site-heading {
+    .post-heading {
         padding: 50px 0 0;
         color: white;
 
@@ -48,6 +47,9 @@ header.masthead {
 
     .site-heading{
         color: $gray-900;
+        @media only screen and (min-width: 768px) {
+            padding: 180px 0;
+        }
     }
 
     .page-heading,
