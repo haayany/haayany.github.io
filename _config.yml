@@ -4,6 +4,7 @@ description:        Portfolio | Dani is a UX Designer
 author:             Dani J
 #baseurl:            ""
 url:                "https://dani.is"
+theme: jekyll-theme-minimal
 
 # Social Profiles
 twitter_username:   
