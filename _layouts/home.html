@@ -18,7 +18,7 @@ layout: default
               <h1>Jeon</h1>
             </div>
             <div class="col-md-6 p-3 text-center text-lg-start">
-              <p>is a User Experience Designer living in California crafting digital interactions by designing solutions
+              <p>is a User Experience Designer living in California Crafting digital interactions by designing solutions
               </p>
             </div>
             </row>
@@ -40,7 +40,9 @@ layout: default
             {% for post in site.posts limit : 4 %}
             <div class="col p-3">
               <a class="card-custom" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                <div class="card-image">
+                
+                <div class="card-image p-3">
+                  
                   <img class="img-fluid" src="{{ post.card }}">
                 </div>
                 <div class="content">
