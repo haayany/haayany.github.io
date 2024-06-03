@@ -13,7 +13,7 @@ background: '/img/bg-post.jpg'
           {% for post in site.posts limit : 8 %}
           <div class="col p-3">
             <a class="card-custom" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-              <div class="card-image">
+              <div class="card-image p-3">
                 <img class="img-fluid" src="{{ post.card }}">
               </div>
               <div class="content">
