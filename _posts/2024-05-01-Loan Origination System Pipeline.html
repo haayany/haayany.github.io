@@ -1,0 +1,159 @@
+---
+layout: post
+date: 2024-03-02
+title: "Loan Origination System Pipeline"
+subtitle: ""
+card: '/img/posts/los/card.png'
+video: '/img/posts/los/los-card.webm'
+header: '/img/posts/los/card-post.png'
+role: 'UX/UI Designer, Front-end developer'
+timeline: 'January 2020'
+color: '#26266c'
+permalink: /showing.works/:title/
+---
+<div class="col-md-8 mx-auto py-5">
+    <h2>Overview</h2>
+    <p>MTrac was developed in the early 2000s. Over the years, although it gained more features, it never truly evolved. By 2020, the product looked outdated, resembling something from early 2000s.</p>
+
+    <p>
+        My approach to revamping MTrac involved a complete overhaul. I planned to deconstruct the product piece by piece, meticulously examining each page, and replacing it with a modern, user-friendly, and innovative solution until the entire system was transformed.</p>
+
+    <p>
+        To start this major project, I needed the support of the upper management. I decided to start with someone open to change, so I approached the newly promoted operations manager. We agreed to begin with small but noticeable improvements to build momentum, the page that gets the most views from users, pipeline.</p>
+
+    <h4>Team:</h4>
+    <p>2 Software engineers and Dani as UX/UI Designer and Front-end developer</p>
+    <h4>Project Length:</h4>
+    <p>2 Weeks (Jan 2020)</p>
+</div>
+
+<div class="col-12 py-5">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <img class="img-fluid" src="/img/posts/los/old-pipeline.png">
+            <span class="caption text-muted">Old Pipeline</span>
+        </div>
+    </div>
+</div>
+<div class="col-12 py-5">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <img class="img-fluid" src="/img/posts/los/new-pipeline.png">
+            <span class="caption text-muted">New Pipeline</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-8 mx-auto py-5">
+    <h2>Competitor Research</h2>
+    <p>I analyzed several competitors' systems, focusing on their pipeline pages. Among them, two web-based systems stood out with well-structured pipelines. I mainly focused on the language they used, and the order of the columns. For instance, since mortgage experts are familiar with the content, "Status" is enough instead of "Loan Status."</p>
+    <p>I also wanted to group related items together. Users need to find the loan they want to open quickly, or they should be able to get general information about the loan without opening a page.</p>
+    <p><span class="fw-semibold">To "Find" a loan:</span> Loan ID | Borrower Name | Submission Date</p>
+    <p><span class="fw-semibold">To "Get" the loan's information:</span> Loan Status | Product Name | Submission Date | Lock Expiration Date</p>
+    <p>Soon after, I developed our own column structure, and went through multiple renaming sessions to find better terminology.</p>
+</div>
+
+<div class="col-12 py-5">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <img class="img-fluid" src="/img/posts/los/competitor-research.png">
+            <span class="caption text-muted"></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-8 mx-auto py-5">
+    <h2>User Interviews</h2>
+    <p>But what kind of information do brokers need and what information is more important? 
+    What information do brokers need to know for which part?
+    How many loans a broker, a loan officer, and a loan processor would manage in how many days?</p>
+
+    <p>To gather the information and find what users "need" rather than what they "want", I interviewed all
+        related departments in different positions. Loan officers, sales teams, sales team managers, an
+        operation manager, and underwriters. To not reveal what I'm working on, I asked the most generic questions to ask to each group.</p>
+        
+        <p class="mt-0"><span class="fw-semibold">Loan Officers:</span> Here are loan processing milestones, can you tell me which are the most used and the least used by
+        you? And why?</p>
+    <p class="mt-0"><span class="fw-semibold">Sales Teams and Managers:</span> What kind of questions do you get the most from your brokers?</p>
+    <p class="mt-0"><span class="fw-semibold">Operation Manager:</span> What is the most important information do brokers need to know about while their loans are
+        getting processed?</p>
+    <p class="mt-0"><span class="fw-semibold">Underwriters:</span> When you underwrite a loan, what part do brokers struggle with the most?</p>
+
+    <p>I told the interviewees the purpose of the interview after asking the questions. In that way, they can give me
+        the pure answer to the question, and the information they "think" is related to the goal.</p>
+
+    <p>After the interview sessions, I got what I needed.</p>
+    <ul>
+        <li>Registration Stage - General Loan Information.
+        </li>
+        <li>Submission Stage - Loan Document Generation and Sign Status.
+        </li>
+        <li>Processing Stage - Document Uploading Status and Essential Dates.
+        </li>
+        <li>Each loan officer would register 10~15 loans a month but fund 2~3 loans a month. Brokers use several
+            different lenders mostly, so the amount would be lower.
+        </li>
+    </ul>
+    <p>and some more insights as well;</p>
+    <ul>
+        <li>Brokers use borrowers' names to refer to the loan, not the numeric loan identifiers.
+        </li>
+        <li>Several key dates (rate lock expiration date, submission date, and underwriting related dates)
+        </li>
+        <li>
+            Brokers want to see what documents need to be uploaded
+        </li>
+    </ul>
+</div>
+
+<div class="col-md-8 mx-auto py-5">
+    <h2>Prototype</h2>
+    <p>Since we needed to finish the project asap, I decided to create a prototype with a webpage instead of prototyping tools so that I could connect the backend easily. So I quickly coded a webpage to test out the layout and contents. And the test page was distributed to selected brokers and loan officers.</p>
+</div>
+<div class="col-12 py-5">
+    <div class="row align-items-end">
+        <div class="col-md-12">
+            <img class="img-fluid" src="/img/posts/los/prototype.png">
+            <span class="caption text-muted">Initial prototype in a simple webpage</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-8 mx-auto py-5">
+    <h2>Prototype Feedback and New Design</h2>
+    <p>The test group told us that it's a great improvements. However, search and filter feature could be better.</p>
+    <p>With the feedback, I updated search and filter. And also added visual hierarchy in font-size and added icons to highlight important columns.</p>
+</div>
+<div class="col-12 py-5">
+    <div class="row align-items-end">
+        <div class="col-md-12">
+            <img class="img-fluid" src="/img/posts/los/final.png">
+            <span class="caption text-muted">Latest prototype before the release</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-8 mx-auto py-5">
+    <h2>Release and Outcome</h2>
+    <p>I have created two documents. One is for backlogging development documents, and the other one is for training
+        material.</p>
+    <p>
+
+        With the training material and training sessions I gave to the sales team, our sales team got more confidence
+        what they're telling the customers(brokers) and our customers got used to the new pipeline quickly.</p>
+        <p>Thanks to the new pipeline, in the following month, the amount of support requests regarding pipeline has reduced nearly 90% and customer loan condition reply speed has increased 100%</p>
+        <p>We learned the importance of loan condition tracking from the result of this update. Thanks to that, we could focus on developing a better condition processing for underwriters and customers.</p>
+</div>
+<div class="col-12 py-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-fluid" src="/img/posts/los/training-1.png">
+            <span class="caption text-muted">Training Material - general overview</span>
+        </div>
+        <div class="col-md-6">
+            <img class="img-fluid" src="/img/posts/los/training-2.png">
+            <span class="caption text-muted">Training Material - filter and detail info</span>
+        </div>
+    </div>
+</div>
